@@ -1,7 +1,5 @@
 import mongoose from 'mongoose';
 
-console.log('connection start')
-
 mongoose.Promise = global.Promise;
 
 mongoose.connection.on('connected', () => {
